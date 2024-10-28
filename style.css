@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: rgb(0, 0, 73);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+aside{
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid whitesmoke;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(0, 0, 73);
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+main{
+    flex: 1;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+h2{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+h3{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 10px;
+}
